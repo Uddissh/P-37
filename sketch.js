@@ -114,5 +114,7 @@ function touch(rex,obs) {
 
 	if (rex.x > obs.x) {
 		trex.changeAnimation("collided", trex_collided)
+		obstacleGroup.destroy();
 	}
+
 }
