@@ -71,7 +71,7 @@ function spawnClouds() {
     cloud.velocityX = -3;
     
      //assign lifetime to the variable
-    cloud.lifetime = 134;
+    cloud.lifetime = 400;
     
     //adjust the depth
     cloud.depth = trex.depth;
@@ -103,7 +103,7 @@ function spawnObstacles() {
     }
     //assign scale and lifetime to the obstacle           
     obstacle.scale = 0.5;
-    obstacle.lifetime = 100;
+    obstacle.lifetime = 400;
         obstacleGroup.add(obstacle);
   }
 }
